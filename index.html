@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Gem Miner</h1>
+    </header>
+
+    <div class="Container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>This is a holder for the rules</p> 
+            </div>
+            <div class="col-md-6">
+                <p>get to this number: <span id="random-target"></span></p>
+                <p>your score so far: <span id="added-score"></span></p>
+            </div>
+        </div>
+    </div>  
+
+    <div class="container">
+        <div class="row" id="gemButtons">
+            <div class="col-md-6">
+                <button class="gems1">gems1</button>
+            </div>
+            <div class="col-md-6">
+                <button class="gems2">gems2</button>
+            </div>
+        </div>
+        <div class="row" id="gemButtons">    
+            <div class="col-md-6">
+                <button class="gems3">gems3</button>
+            </div>
+            <div class="col-md-6">
+                <button class="gems4">gems4</button>
+            </div>     
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p>placeholder for score</p>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+
     <script src="assets/javascript/game.js"></script>
-
-
-
 </body>
 </html>
