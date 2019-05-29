@@ -7,10 +7,11 @@
 
 var wins = 0;
 var losses = 0;
+var score = 0;
 
 var randNumber = Math.floor(Math.random() * 101) + 19;
 $(".guessedNumber").html(randNumber);
-$("#random-target").text(randNumber);
+$("#random-target").html(randNumber);
 
 var gems1 = Math.floor(Math.random() * 12) + 1;
 var gems2 = Math.floor(Math.random() * 12) + 1;
@@ -18,16 +19,27 @@ var gems3 = Math.floor(Math.random() * 12) + 1;
 var gems4 = Math.floor(Math.random() * 12) + 1;
 
 $(".gems1").on("click", function() {
-    $("#added-score").text(gems1);
+    score += parseInt(gems1);
+    $("#added-score").text(score);
+    console.log(score);
 });
 $(".gems2").on("click", function() {
-    $("#added-score").text(gems2);
+    score += parseInt(gems1);
+    $("#added-score").text(score);
+    console.log(score);
 });
 $(".gems3").on("click", function() {
-    $("#added-score").text(gems3);
+    score += parseInt(gems3);
+    $("#added-score").text(score);
+    console.log(score);
 });
 $(".gems4").on("click", function() {
-    $("#added-score").text(gems4);
+    score += parseInt(gems4);
+    $("#added-score").text(score);
+    console.log(score);
 });
 
-
+// if (score === randNumber) {
+//     wins++;
+//     alert("good job!")
+// }
