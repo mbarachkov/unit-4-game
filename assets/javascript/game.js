@@ -34,7 +34,6 @@ $("#gems1").on("click", function() {
     score += parseInt(gems1);
     $("#added-score").text(score);
     console.log(score);
-    $("#gems1").effect( "highlight", {color:"#669966"}, 3000 );
     game();
 });
 $("#gems2").on("click", function() {
