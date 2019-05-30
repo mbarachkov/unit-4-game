@@ -1,3 +1,23 @@
 .container {
     margin: 0 auto;
 }
+#title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: beige;
+}
+#target {
+    background-color: black;
+    color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+}
+#score {
+    background-color: black;
+    color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-left: 80px;
+}

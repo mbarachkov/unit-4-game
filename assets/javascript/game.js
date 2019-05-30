@@ -65,8 +65,8 @@ function game(){
         reset();
     }
     if (score > randNumber) {
-        $("#loss").text(losses);
         losses++;
+        $("#loss").text(losses);
         alert("NOPE");
         reset();
     }
