@@ -18,9 +18,9 @@
     <div class="container">
         <section class="pt-5 pb-5 bg-dark inner-header">
             <div class="container">
-                <div class="row">
+                <div class="row" id="title">
                     <div class="col-md-12 text-center">
-                        <h1 id="title">Crystal Collector</h1>
+                        <h1>Crystal Collector</h1>
                     </div>
                 </div>
             </div>
@@ -28,11 +28,11 @@
 
         <div class="Container">
             <div class="row">
-                <div class="col-md-5" id="target">
-                    <p>get to this number: <span id="random-target"></span></p>
-                    <p>your score so far: <span id="added-score"></span></p>
+                <div class="col-md-7" id="target">
+                    <p>Target Number: <span id="random-target"></span></p>
+                    <p>Your score so far: <span id="added-score"></span></p>
                 </div>
-                <div class="col-md-6" id="score">
+                <div class="col-md-5" id="score">
                     <p>wins: <span id="win"></span></p>
                     <p>losses: <span id="loss"></span></p>
                 </div>
@@ -41,25 +41,32 @@
 
         <div class="container">
             <div class="row" id="gemButtons">
+                <div class="col-md-1"></div>
                 <div class="col-md-3">
-                    <button class="gems1">gems1</button>
+                    <input type="image" src="assets/images/gem.jpg" id="gems1"/>
                 </div>
 
                 <div class="col-md-3">
-                    <button class="gems2">gems2</button>
+                    <input type="image" src="assets/images/gem.jpg" id="gems2"/>
                 </div>
 
                 <div class="col-md-3">
-                    <button class="gems3">gems3</button>
+                    <input type="image" src="assets/images/gem.jpg" id="gems3"/>
                 </div>
 
-                <div class="col-md-3">
-                    <button class="gems4">gems4</button>
+                <div class="col-md-2">
+                    <input type="image" src="assets/images/gem.jpg" id="gems4"/>
                 </div>
             </div>
         </div>
     </div>
-    <footer></footer>
+    <div class="container" id="rules">
+        <div class="row">
+            <div class="col-md-12">
+                <p>welcome to the game! by clicking each gem try and hit the target number. If you go over the number you lose. The numbers for each gem is random so be careful!</p>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/javascript/game.js"></script>
 </body>

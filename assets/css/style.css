@@ -4,20 +4,49 @@
 #title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
-    color: beige;
+    color: black;
+    background-color: rgb(0, 183, 255);
+    padding: 20px;
+    
 }
 #target {
-    background-color: black;
+    background-color: rgb(0, 183, 255);
     color: beige;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     font-size: 40px;
+    padding: 10px;
 }
 #score {
+    background-color: rgb(0,183,255);
+    color: beige;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    font-size: 40px;
+    
+}
+#rules {
     background-color: black;
     color: beige;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     font-size: 40px;
-    margin-left: 80px;
+    text-align: center;
+    padding: 20px;
+}
+#gems1 {
+    margin-top: 20px;
+    border: solid grey;
+}
+#gems2 {
+    margin-top: 20px;
+    border: solid grey;
+}
+#gems3 {
+    margin-top: 20px;
+    border: solid grey;
+}
+#gems4 {
+    margin-top: 20px;
+    border: solid grey;
 }

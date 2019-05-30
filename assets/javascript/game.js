@@ -30,26 +30,27 @@ function reset() {
     $("#added-score").text(score);
 }
 
-$(".gems1").on("click", function() {
+$("#gems1").on("click", function() {
     score += parseInt(gems1);
     $("#added-score").text(score);
     console.log(score);
+    $("#gems1").effect( "highlight", {color:"#669966"}, 3000 );
     game();
 });
-$(".gems2").on("click", function() {
+$("#gems2").on("click", function() {
     score += parseInt(gems1);
     $("#added-score").text(score);
     console.log(score);
     game();
 
 });
-$(".gems3").on("click", function() {
+$("#gems3").on("click", function() {
     score += parseInt(gems3);
     $("#added-score").text(score);
     console.log(score);
     game();
 });
-$(".gems4").on("click", function() {
+$("#gems4").on("click", function() {
     score += parseInt(gems4);
     $("#added-score").text(score);
     console.log(score);
